@@ -1,0 +1,44 @@
+/* .recetas-nosotros {
+  text-decoration: unset;
+  color: tomato;
+} */
+.recetas-elles,
+.recetas-nosotros {
+  text-decoration: unset;
+  color: green;
+}
+.otraclasemas {
+  font-weight: bold;
+}
+/* a {
+  font-size: 1.5em;
+}
+p {
+  color: darkblue;
+} */
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.imagennn {
+  border: 2px solid red;
+  /* border-color: red !important;
+  border: 2px;
+  border-style: dashed; */
+  padding: 0.25em;
+  margin-right: 0.25em;
+  width: auto;
+  height: 300px;
+}
+
+.imagennn:hover {
+  border-color: green !important;
+  transition: ease-in;
+  transition: ease-out;
+  transition-duration: 0.5s;
+}
+
+/* 
+    Unidades: PX, EM, REM, VH (viewport height), VW (viewport width), % (depende del padre)
+*/
